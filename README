@@ -1,11 +1,11 @@
-        About Bombono DVD.
+        About OpenBombono.
 
-Bombono DVD is DVD authoring program with nice and clean GUI.
+OpenBombono is DVD authoring program with nice and clean GUI.
 The project homepage is
 
     http://bombono.com
 
-Bombono DVD is 'Open Source' and licensed under GPL 
+OpenBombono is 'Open Source' and licensed under GPL 
 (GNU General Public License, version 2), see COPYING. Boost Library is under 
 Boost Software License Version 1.0, see boost-lib/LICENSE_1_0.txt. The 
 following code is licensed under LGPL (GNU Library General Public License, 
@@ -49,7 +49,7 @@ I. Requirements:
    - (runtime) ffmpeg converter
  o enca:          - http://gitorious.org/enca
 
-II. You need SCons to build Bombono DVD - maybe the best build tool ever. ;) 
+II. You need SCons to build OpenBombono - maybe the best build tool ever. ;) 
 SCons is just make&autotools&libtool all together. Type:
  1) unpack
     $ tar -xjf bombono-dvd-0.5.tar.bz2 
@@ -67,7 +67,7 @@ For instance:
     $ scons BUILD_CFG=debug     # for debugging
     $ scons TEST=1              # run tests
 
-III. Packaging Bombono DVD:
+III. Packaging OpenBombono:
  - for those who is accustomed to 'configure; make; make install' sequence:
    $ scons PREFIX=/usr DESTDIR=$(CURDIR)/debian/bombono-dvd
    ...
